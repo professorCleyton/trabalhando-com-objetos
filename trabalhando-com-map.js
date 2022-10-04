@@ -1,6 +1,7 @@
 /*
 Resumo
-O método map() invoca a função callback passada por argumento para cada elemento do Array e devolve um novo Array como resultado.
+O método map() invoca a função callback passada por argumento para cada elemento do 
+Array e devolve um novo Array como resultado.
 
 Fonte: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
@@ -30,25 +31,25 @@ let vencedores = [
     return item.pais;
  });
  
- console.log(podioPorPais);
- document.write(podioPorPais); // Comandinho novo pra vocês
+//  console.log(podioPorPais);
+//  document.write(podioPorPais); // Comandinho novo pra vocês
 
 /* Exemplo 2 
- Pódio (de brincadeirinha) de mundial de CS GO  agora mandando pro HTML
+ Pódio (de brincadeirinha) de Libertadores de CS GO  agora mandando pro HTML
 */
 {
     let vencedores = [
         {
-            nome : "MIBR",
+            nome : "Palmeiras",
             pais : "Brasil"
         },
         {
-            nome : "Astralis ",
-            pais : "Dinamarca"
+            nome : "Boca Jr. ",
+            pais : "Argentina"
         },
         {
-            nome : "G2 Esports",
-            pais : "Espanha"
+            nome : "Atletico Nacional",
+            pais : "Colômbia"
         }
      ];
 
@@ -99,12 +100,16 @@ let vencedores = [
 
 /* 
     Foreach e map 
-    O map assim como o forEach percorre um objeto, mas é utilizado exclusivamente quando desejamos obter um array como resultado.
-    O forEach é mais utilizado quando você precisa trabalhar algo específico dos itens do objeto. 
+    O map assim como o forEach percorre um objeto, mas é utilizado exclusivamente quando 
+    desejamos obter um array como resultado.
+    O forEach é mais utilizado quando você precisa trabalhar algo específico dos itens 
+    do objeto. 
     O map tem como objetivo obter um novo objeto do objeto percorrido. 
 
-    Fonte: Entendimento do professor com base em diversas obras literárias, vídeos e experiências. 
+    Fonte: Entendimento do professor com base em diversas obras literárias, 
+    vídeos e experiências. 
 
     Informação chave:
-    O map() ECMA-262 na sua 5ª edição, o que significa que ele pode não estar presente em todas as implementações desse padrão.
+    O map() ECMA-262 na sua 5ª edição, o que significa que ele pode não 
+    estar presente em todas as implementações desse padrão.
 */
